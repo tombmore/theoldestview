@@ -25,7 +25,7 @@
                         class="menu menu-sm dropdown-content mt-3 p-2 shadow rounded-box w-52 bg-black"
                     >
                         <li><a href="/" class="text-white">Home</a></li>
-                        <li><a href="/" class="text-white">LogicFlaw Labs</a></li>
+                        <li><a href="https://github.com/LogicFlaw-Labs/" class="text-white" target="_blank">LogicFlaw Labs</a></li>
                         <li><a href="/hub" class="text-white">Community Hub</a></li>
                         <li><a href="/support" class="text-white">Support</a></li>
                     </ul>
@@ -37,7 +37,7 @@
                             <a href="/" class="animate mr-10 text-white">Home</a>
                         </li>
                         <li>
-                            <a href="/" class="animate mr-10 text-white"
+                            <a href="https://github.com/LogicFlaw-Labs/" class="animate mr-10 text-white" target="_blank"
                                 >LogicFlaw Labs</a
                             >
                         </li>

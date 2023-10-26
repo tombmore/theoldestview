@@ -5,7 +5,7 @@ export function load({ params }) {
 
     return {
         heading: result.Heading,
-        content: result.Content,
+        description: result.Description,
         date: result.Date,
         author: result.Author,
         image: result.Image,
