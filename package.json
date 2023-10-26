@@ -19,6 +19,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/adapter-cloudflare": "^2.3.3",
 		"marked": "^9.1.2"
 	}
 }
