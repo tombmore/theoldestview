@@ -1,4 +1,5 @@
 <script>
+    import { base } from '$app/paths';
     import Hub_EN from "/src/lib/contentrain/Hub/en.json";
 </script>
 
@@ -9,7 +10,7 @@
             <div style="w-auto">
                 <hr>
                 <div class="pt-10">
-                    <a class="text-2xl link" href={`/hub/${post.Slug}`}>{post.Heading}</a>
+                    <a class="text-2xl link" href={`${base}/hub/${post.Slug}`}>{post.Heading}</a>
                     <p class="text-md pt-3">{post.Description}</p>
                 </div>
             </div>

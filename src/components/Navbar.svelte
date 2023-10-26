@@ -1,3 +1,7 @@
+<script>
+    import { base } from '$app/paths';
+</script>
+
 <div class="navbar-container absolute">
     <div class="flex justify-center">
         <div class="navbar w-3/4">
@@ -24,17 +28,17 @@
                         tabindex="-1"
                         class="menu menu-sm dropdown-content mt-3 p-2 shadow rounded-box w-52 bg-black"
                     >
-                        <li><a href="/" class="text-white">Home</a></li>
+                        <li><a href="{base}/" class="text-white">Home</a></li>
                         <li><a href="https://github.com/LogicFlaw-Labs/" class="text-white" target="_blank">LogicFlaw Labs</a></li>
-                        <li><a href="/hub" class="text-white">Community Hub</a></li>
-                        <li><a href="/support" class="text-white">Support</a></li>
+                        <li><a href="{base}/hub" class="text-white">Community Hub</a></li>
+                        <li><a href="{base}/support" class="text-white">Support</a></li>
                     </ul>
                 </div>
 
                 <div class="navbar-center hidden md:flex">
                     <ul class="flex px-1">
                         <li>
-                            <a href="/" class="animate mr-10 text-white">Home</a>
+                            <a href="{base}/" class="animate mr-10 text-white">Home</a>
                         </li>
                         <li>
                             <a href="https://github.com/LogicFlaw-Labs/" class="animate mr-10 text-white" target="_blank"
@@ -42,13 +46,13 @@
                             >
                         </li>
                         <li>
-                            <a href="/hub" class="animate mr-10 text-white"
+                            <a href="{base}/hub" class="animate mr-10 text-white"
                                 >Community Hub</a
                             >
                         </li>
                         <li>
                             <a
-                                href="/support"
+                                href="{base}/support"
                                 class="animate mr-10 text-white">Support</a
                             >
                         </li>
