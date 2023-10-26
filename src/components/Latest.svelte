@@ -10,7 +10,7 @@
                 <hr>
                 <div class="pt-10">
                     <a class="text-2xl link" href={`/hub/${post.Slug}`}>{post.Heading}</a>
-                    <p class="text-lg pt-10">{post.Description}</p>
+                    <p class="text-md pt-3">{post.Description}</p>
                 </div>
             </div>
         {/each}
