@@ -1,13 +1,13 @@
 [
   {
     "ID": "27b9e98e-a847-463f-80c8-f72fa3c259a0",
-    "Image": "static/1698325814379_Beginning.png",
+    "Image": "https://imagedelivery.net/cZyIhLsJEwgUyyjWVLaudA/b4eeeeba-9bad-48cc-5f3c-c40bf349ce00/public",
     "Heading": "Beginning The Development",
     "Date": "2023-10-26",
     "Description": "The development begins. Get a quick overview of what's coming!",
     "Link": "https://www.google.com",
     "createdAt": 1698325830287,
     "Slug": "beginning-the-development",
-    "updatedAt": 1698332518313
+    "updatedAt": 1698360783278
   }
 ]
